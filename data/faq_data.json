@@ -1,0 +1,14 @@
+[
+  {
+    "question": "What are your business hours?",
+    "answer": "We are open Monday through Friday from 9 AM to 6 PM." 
+  },
+  {
+    "question": "How can I reset my password?",
+    "answer": "Click the 'Forgot Password' link on the login page and follow the steps." 
+  },
+  {
+    "question": "Where are you located?",
+    "answer": "Our headquarters is in San Francisco, California." 
+  }
+]

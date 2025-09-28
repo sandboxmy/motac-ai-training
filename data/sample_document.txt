@@ -1,0 +1,3 @@
+Artificial intelligence (AI) helps teams automate repetitive work.
+It can summarize long documents and highlight the most important facts.
+Teams should still review AI output to ensure accuracy and fairness.
