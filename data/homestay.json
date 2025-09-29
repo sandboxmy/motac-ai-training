@@ -1,0 +1,114 @@
+[
+  {
+    "homestay_id": "HS001",
+    "homestay_name": "Kampung Seri Indah Homestay",
+    "owner_name": "Ahmad bin Hassan",
+    "location": {
+      "state": "Kedah",
+      "district": "Langkawi",
+      "village": "Kampung Seri Indah",
+      "coordinates": {
+        "latitude": 6.3500,
+        "longitude": 99.8000
+      }
+    },
+    "property_details": {
+      "type": "Traditional Malay House",
+      "rooms_available": 3,
+      "max_guests": 8,
+      "amenities": ["Air Conditioning", "WiFi", "Kitchen", "Parking", "Garden"],
+      "year_built": 1985,
+      "renovation_year": 2020,
+      "size_sqft": 1200
+    },
+    "pricing": {
+      "price_per_night": 120.00,
+      "cleaning_fee": 15.00,
+      "security_deposit": 50.00,
+      "currency": "MYR"
+    },
+    "performance_metrics": {
+      "occupancy_rate": 78.5,
+      "average_rating": 4.3,
+      "total_reviews": 45,
+      "revenue_monthly": 2800.00,
+      "booking_rate": 0.85
+    },
+    "guest_profile": {
+      "primary_market": "Domestic",
+      "age_group": "25-45",
+      "travel_purpose": "Leisure",
+      "group_type": "Family",
+      "average_stay_days": 2.5
+    },
+    "registration": {
+      "license_number": "HS-KD-2024-001",
+      "registration_date": "2024-01-15",
+      "status": "Active",
+      "inspection_date": "2024-06-15",
+      "next_inspection": "2024-12-15"
+    },
+    "contact_info": {
+      "phone": "+60123456789",
+      "email": "ahmad.hassan@email.com",
+      "website": "www.seriindahhomestay.com"
+    },
+    "last_updated": "2024-12-01"
+  },
+  {
+    "homestay_id": "HS002",
+    "homestay_name": "Rumah Teratak Heritage",
+    "owner_name": "Fatimah binti Abdullah",
+    "location": {
+      "state": "Melaka",
+      "district": "Alor Gajah",
+      "village": "Kampung Teratak",
+      "coordinates": {
+        "latitude": 2.2000,
+        "longitude": 102.2500
+      }
+    },
+    "property_details": {
+      "type": "Heritage House",
+      "rooms_available": 2,
+      "max_guests": 6,
+      "amenities": ["Traditional Architecture", "Cultural Experience", "WiFi", "Parking"],
+      "year_built": 1920,
+      "renovation_year": 2019,
+      "size_sqft": 800
+    },
+    "pricing": {
+      "price_per_night": 95.00,
+      "cleaning_fee": 10.00,
+      "security_deposit": 40.00,
+      "currency": "MYR"
+    },
+    "performance_metrics": {
+      "occupancy_rate": 82.3,
+      "average_rating": 4.6,
+      "total_reviews": 38,
+      "revenue_monthly": 2200.00,
+      "booking_rate": 0.88
+    },
+    "guest_profile": {
+      "primary_market": "International",
+      "age_group": "30-55",
+      "travel_purpose": "Cultural Tourism",
+      "group_type": "Couple",
+      "average_stay_days": 3.2
+    },
+    "registration": {
+      "license_number": "HS-MK-2024-002",
+      "registration_date": "2024-02-01",
+      "status": "Active",
+      "inspection_date": "2024-07-01",
+      "next_inspection": "2025-01-01"
+    },
+    "contact_info": {
+      "phone": "+60123456790",
+      "email": "fatimah.teratak@email.com",
+      "website": "www.teratakheritage.com"
+    },
+    "last_updated": "2024-12-01"
+  }
+]
