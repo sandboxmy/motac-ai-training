@@ -3,3 +3,5 @@ requests
 pandas
 matplotlib
 nltk
+duckduckgo-search
+typing-extensions
