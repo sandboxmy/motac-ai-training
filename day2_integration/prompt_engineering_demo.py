@@ -12,12 +12,12 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama3"
+MODEL_NAME = "gemma3:1b"
 
 # Default system prompt used if the trainer does not set one yet.
 DEFAULT_SYSTEM_PROMPT = (
     "You are a patient AI coach helping beginners understand AI concepts. "
-    "Answer with short explanations and include a practical tip when possible."
+    "Answer in 2 points only"
 )
 
 

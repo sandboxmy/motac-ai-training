@@ -12,7 +12,7 @@ from flask import Flask, jsonify, request
 app = Flask(__name__)
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama3"  # Change to a model you have available, e.g., "llama2".
+MODEL_NAME = "gpt-oss:20b"  # Change to a model you have available, e.g., "llama2".
 
 
 @dataclass
