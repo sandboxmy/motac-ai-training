@@ -15,7 +15,7 @@ app = Flask(__name__)
 
 FAQ_PATH = Path(__file__).resolve().parents[1] / "data" / "faq_data.json"
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL_NAME = "llama3"
+MODEL_NAME = "gemma3:1b"
 EMBED_URL = "http://localhost:11434/api/embeddings"
 EMBED_MODEL = os.getenv("OLLAMA_EMBED_MODEL", "nomic-embed-text")
 

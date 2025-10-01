@@ -107,10 +107,29 @@ Sample data files live in the `data/` directory:
   ```
   Creates a SQLite database of lessons, shows the rows, and requests AI explanations for each lesson.
 
-## 7. Troubleshooting Tips
+## 7. Final Project (`final_project/`)
+
+- `summarized_chatbot.py`
+  ```bash
+  python final_project/summarized_chatbot.py
+  ```
+  A comprehensive FastAPI application that combines document analysis, data visualization, and AI-powered insights. Accepts PDF, CSV/Excel files, or URLs for analysis. Runs at `http://localhost:8000`. Features:
+  - Document summarization with key points extraction
+  - Data analysis with automatic chart generation
+  - AI-powered insights using Ollama
+  - RESTful API with interactive documentation at `/docs`
+
+- `test_api.py`
+  ```bash
+  python final_project/test_api.py
+  ```
+  Test script to verify the API functionality with sample data.
+
+## 8. Troubleshooting Tips
 
 - If a script reports `Could not reach the Ollama server`, confirm the server is running and that the model (e.g., `llama3`) is downloaded.
 - Adjust the `MODEL_NAME` constant in scripts if you prefer a different model.
 - When running Flask apps, stop them with `Ctrl+C` before starting another script on the same port.
+- For the FastAPI application in final_project, ensure all dependencies are installed from requirements.txt.
 
 Enjoy the training! Feel free to extend these examples or adapt them to your audience.

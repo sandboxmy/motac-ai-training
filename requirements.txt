@@ -5,3 +5,8 @@ matplotlib
 nltk
 duckduckgo-search
 typing-extensions
+fastapi
+uvicorn
+PyPDF2
+openpyxl
+python-multipart
